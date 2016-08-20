@@ -17,16 +17,16 @@
 
 
     <!--  Light Bootstrap Table core CSS    -->
-    <link href="assets/stylesheets/light-bootstrap-dashboard.css" rel="stylesheet"/>
+    <!-- <link href="assets/stylesheets/light-bootstrap-dashboard.css" rel="stylesheet"/> -->
 
     <!-- bootstrap-tagsinput CSS -->
-    <link href="assets/stylesheets/bootstrap-tagsinput.css" rel="stylesheet"/>
+    <!-- <link href="assets/stylesheets/bootstrap-tagsinput.css" rel="stylesheet"/> -->
 
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <!-- <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" /> -->
 
 </head>
 <body>
@@ -96,13 +96,84 @@
 
 
         <div class="content">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                   <div class="search-tags">
-                    <input type="text" value="Software Developer,C++,London,45-65k" placeholder="Filter by keyword" data-role="tagsinput"><button class="btn btn-sm pull-right run" type="button" name="Run">run</button>
+                    <input type="text" value="Software Developer,C++,London,45-65k" placeholder="Filter by keyword" data-role="tagsinput">
+                    <button class="btn btn-sm pull-right run" type="button" name="Run">run</button>
                   </div>
                 </div>
-            </div>
+              </div>
+
+                  <div class="container">
+                    <div class="row">
+                      <div class="dropdown-options">
+                        <ul class="nav nav-pills" role="tablist">
+                           <li role="presentation" class="dropdown">
+                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Job Title <span class="caret"></span> </a>
+                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                               <li>
+                                 <div class="filter-row" data-key="locations" data-value="1695-London, GB">London, GB</div>
+                                 <!-- <a href="#">Software Developer</a> -->
+                               </li>
+                               <li>
+                                 <a href="#">Machine Learning</a>
+                               </li>
+                               <li>
+                                 <a href="#">Web Engineering</a>
+                               </li>
+                             </ul>
+                           </li>
+
+                           <li role="presentation" class="dropdown">
+                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Skill <span class="caret"></span> </a>
+                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                               <li>
+                                 <a href="#">C++</a>
+                               </li>
+                               <li>
+                                 <a href="#">Ruby</a>
+                               </li>
+                               <li>
+                                 <a href="#">Python</a>
+                               </li>
+                             </ul>
+                           </li>
+
+                           <li role="presentation" class="dropdown">
+                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Location <span class="caret"></span> </a>
+                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                               <li>
+                                 <a href="#">London</a>
+                               </li>
+                               <li>
+                                 <a href="#">Manchester</a>
+                               </li>
+                               <li>
+                                 <a href="#">Edinburgh</a>
+                               </li>
+                             </ul>
+                           </li>
+
+                           <li role="presentation" class="dropdown">
+                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Salary <span class="caret"></span> </a>
+                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                               <li>
+                                 <a href="#">25-35K</a>
+                               </li>
+                               <li>
+                                 <a href="#">35-45K</a>
+                               </li>
+                               <li>
+                                 <a href="#">45-55K</a>
+                               </li>
+                             </ul>
+                           </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+
         </div>
 
 
@@ -133,6 +204,6 @@
     <!-- JS files -->
 
     <!--  Bootstrap tags input Plugin -->
-  	<script src="assets/javascripts/bootstrap-tagsinput.js"></script>
+  	<!-- <script src="assets/javascripts/bootstrap-tagsinput.js"></script> -->
 
 </html>
