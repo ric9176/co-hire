@@ -52,10 +52,14 @@
                 <li class="active">
                     <a href="dashboard.html">
                         <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
+                        <p>Search</p>
                     </a>
                 </li>
-
+                <li class="active">
+                    <a href="dashboard.html">
+                        <i class="pe-7s-graph"></i>
+                        <p>Applications</p>
+                    </a>
             </ul>
     	</div>
     </div>
@@ -96,82 +100,98 @@
 
 
         <div class="content">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                   <div class="search-tags">
                     <input type="text" value="Software Developer,C++,London,45-65k" placeholder="Filter by keyword" data-role="tagsinput" id="tags">
                     <button class="btn btn-sm pull-right run" type="button" name="Run">run</button>
                   </div>
                 </div>
-              </div>
 
-                  <div class="container">
-                    <div class="row">
-                      <div class="dropdown-options">
-                        <ul class="nav nav-pills" role="tablist">
-                           <li role="presentation" class="dropdown">
-                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Job Title <span class="caret"></span> </a>
-                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
-                               <li>
-                                 <a href="#" id="dev">Software Dev</a>
-                               </li>
-                               <li>
-                                 <a href="#">Machine Learning</a>
-                               </li>
-                               <li>
-                                 <a href="#">Web Engineering</a>
-                               </li>
-                             </ul>
-                           </li>
-
-                           <li role="presentation" class="dropdown">
-                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Skill <span class="caret"></span> </a>
-                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
-                               <li>
-                                 <a href="#">C++</a>
-                               </li>
-                               <li>
-                                 <a href="#">Ruby</a>
-                               </li>
-                               <li>
-                                 <a href="#">Python</a>
-                               </li>
-                             </ul>
-                           </li>
-
-                           <li role="presentation" class="dropdown">
-                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Location <span class="caret"></span> </a>
-                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
-                               <li>
-                                 <a href="#">London</a>
-                               </li>
-                               <li>
-                                 <a href="#">Manchester</a>
-                               </li>
-                               <li>
-                                 <a href="#">Edinburgh</a>
-                               </li>
-                             </ul>
-                           </li>
-
-                           <li role="presentation" class="dropdown">
-                             <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Salary <span class="caret"></span> </a>
-                              <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
-                               <li>
-                                 <a href="#">25-35K</a>
-                               </li>
-                               <li>
-                                 <a href="#">35-45K</a>
-                               </li>
-                               <li>
-                                 <a href="#">45-55K</a>
-                               </li>
-                             </ul>
-                           </li>
+                  <div class="row">
+                    <div class="dropdown-options">
+                      <ul class="nav nav-pills" role="tablist">
+                        <li role="presentation" class="dropdown">
+                          <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Job Title <span class="caret"></span> </a>
+                          <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                            <li>
+                              <a href="#" id="dev">Software Dev</a>
+                            </li>
+                            <li>
+                              <a href="#">Machine Learning</a>
+                            </li>
+                            <li>
+                              <a href="#">Web Engineering</a>
+                            </li>
                           </ul>
-                        </div>
+                        </li>
+
+                        <li role="presentation" class="dropdown">
+                          <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Skill <span class="caret"></span> </a>
+                          <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                            <li>
+                              <a href="#">C++</a>
+                            </li>
+                            <li>
+                              <a href="#">Ruby</a>
+                            </li>
+                            <li>
+                              <a href="#">Python</a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li role="presentation" class="dropdown">
+                          <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Location <span class="caret"></span> </a>
+                          <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                            <li>
+                              <a href="#">London</a>
+                            </li>
+                            <li>
+                              <a href="#">Manchester</a>
+                            </li>
+                            <li>
+                              <a href="#">Edinburgh</a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li role="presentation" class="dropdown">
+                          <a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Salary <span class="caret"></span> </a>
+                          <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+                            <li>
+                              <a href="#">25-35K</a>
+                            </li>
+                            <li>
+                              <a href="#">35-45K</a>
+                            </li>
+                            <li>
+                              <a href="#">45-55K</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
                     </div>
                   </div>
+
+
+                  <div class="row">
+                    <div class="positions">
+                      <p>
+                        450 Positions
+                      </p>
+                    </div>
+                  </div>
+
+
+              </div>
+
+
+
+
+
+
+
 
         </div>
 
