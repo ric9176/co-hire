@@ -3,6 +3,11 @@
  *
  */
 
+button.run {
+  border: 1px solid #777;
+  border-radius: initial;
+}
+
 .search-tags {
   margin: 0 135px;
   background-color: #E0E0E0;
@@ -23,10 +28,11 @@
   box-shadow: none;
   outline: none;
   background-color: transparent;
-  padding: 0 6px;
-  margin: 0;
+  padding: 0 12px;
+  margin-left: 10px;
   width: auto;
   max-width: inherit;
+  border-left: 2px solid #777;
 }
 .bootstrap-tagsinput.form-control input::-moz-placeholder {
   color: #777;
@@ -41,6 +47,7 @@
 .bootstrap-tagsinput input:focus {
   border: none;
   box-shadow: none;
+  border-left: 2px solid #777;
 }
 .bootstrap-tagsinput .tag {
   margin-right: 2px;
