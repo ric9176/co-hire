@@ -1,3 +1,17 @@
+/*custom elements */
+.dropdown-options {
+width: 80%;
+background-color: #E0E0E0;
+margin-top: 8px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.dropdown-options a{
+  color: grey;
+}
+
 /*      light colors         */
 @keyframes spin {
   from {
