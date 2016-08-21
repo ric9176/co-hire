@@ -36,6 +36,14 @@
    background-color: #95a5a6;
  }
 
+ .detail {
+   margin-bottom: 0;
+ }
+
+ .soft {
+   color: grey;
+ }
+
  .buttons {
    display: flex;
    flex-direction: row;
@@ -45,7 +53,11 @@
 
  .decision {
    text-align: center;
-   padding-top: 3em;
+   padding-top: 0.5em;
+ }
+
+ .logo {
+   width: 100%;
  }
 
  .job {

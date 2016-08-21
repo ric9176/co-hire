@@ -111,7 +111,6 @@ h6, .h6 {
 }
 
 p {
-  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -162,10 +161,10 @@ body,
 }
 
 a {
-  color: #1DC7EA;
+  color: #333;
 }
 a:hover, a:focus {
-  color: #42d0ed;
+  color: grey;
   text-decoration: none;
 }
 
@@ -1547,7 +1546,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 .navbar-default .navbar-nav > li > a:not(.btn):focus {
   background-color: transparent;
   border-radius: 3px;
-  color: #1DC7EA;
+  color: #95a5a6;
   opacity: 1;
   filter: alpha(opacity=100);
 }
