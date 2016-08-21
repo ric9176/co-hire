@@ -16,3 +16,21 @@
  .bootstrap-tagsinput .added {
    margin-left: 3px;
  }
+ .panel {
+   margin-bottom: 0;
+   border-right: 3em solid #E0E0E0;
+   border-top: 0;
+   border-left: 0;
+  border-bottom: 0;
+ }
+
+ .positions {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 3em;
+ }
+ .footer.positions {
+   margin-top: 0;
+   background-color: #E0E0E0
+ }
