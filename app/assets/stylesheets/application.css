@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+ .bootstrap-tagsinput .added {
+   margin-left: 3px;
+ }
