@@ -16,42 +16,28 @@
 
 
   </head>
+
   <body>
-
     <div class="wrapper">
-
-        <%= render "sidebar" %>
-
+      <%= render "sidebar" %>
         <div class="main-panel">
-
           <%= render "navbar" %>
-
             <div class="content">
-                <div class="container-fluid">
-
-
-                    <%= render "search" %>
-
-                      <%= render "dropdowns" %>
-
-
-                      <div class="row">
-                        <div class="positions">
-                          <p>
-                            450 Positions
-                          </p>
-                        </div>
+              <div class="container-fluid">
+                  <%= render "search" %>
+                  <%= render "dropdowns" %>
+                    <div class="row">
+                      <div class="positions">
+                        <p>
+                          450 Positions
+                        </p>
                       </div>
-
+                     </div>
                       <%= render "company_info_panels" %>
-
                       <%= render "footer" %>
-
-                  </div>
-
+                </div>
             </div>
-
-        </div>
-    </div>
+          </div>
+      </div>
   </body>
 </html>
