@@ -3,27 +3,28 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
+
+ $content-background: #E0E0E0;
+ $button-hover: #95a5a6;
+
  .bootstrap-tagsinput .added {
    margin-left: 3px;
  }
  .panel {
    margin-bottom: 0;
-   border-right: 3em solid #E0E0E0;
-   border-top: 1px solid #E0E0E0;
+   border-right: 3em solid $content-background;
+   border-top: 1px solid $content-background;
    border-left: 0;
    border-bottom: 0;
  }
 
  .panel-buttons {
+   &:hover{
+     background-color: $button-hover;
+   }
    border: none;
    margin: 1px;
-   background-color: #E0E0E0;
- }
-
- .panel-buttons:hover {
-   border: none;
-   margin: 1px;
-   background-color: #95a5a6;
+   background-color: $content-background;
  }
 
  .detail {
@@ -51,7 +52,7 @@
  }
 
  .job {
-   border-right: 2px solid #E0E0E0;
+   border-right: 2px solid $content-background;
  }
 
  .job-title {
@@ -66,5 +67,5 @@
  }
  .footer.positions {
    margin-top: 0;
-   background-color: #E0E0E0
+   background-color: $content-background
  }
